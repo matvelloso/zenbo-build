@@ -1,0 +1,198 @@
+{
+  "luis_schema_version": "2.0.0",
+  "versionId": "0.1",
+  "name": "Zenbo Basic",
+  "desc": "Basic root dialogs for Zenbo",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Look"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Query Name"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Name"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "where is he from?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how old is she?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who is his wife?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when was he born?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where is she from?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how tall is she?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how tall is he?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when was she born?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how old is he?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who is her husband?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is this",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "look at this",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "check this out",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "zenbo, look what i did",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "can you see what this is?",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "hey, look!",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "look what i did",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "can you see this?",
+      "intent": "Look",
+      "entities": []
+    },
+    {
+      "text": "it's albert einstein",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 5,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "can you tell me about harry shum",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 22,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "who is isaac newton",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 7,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "this is a drawing of a car",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 23,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "it's a drawing of mat velloso",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 18,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "who is bill gates?",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 7,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "tell me what you know about bill gates",
+      "intent": "Query Name",
+      "entities": [
+        {
+          "entity": "Name",
+          "startPos": 28,
+          "endPos": 37
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+﻿<html>
+
+<body style="background: black">
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+   
+    body{
+	margin:0px 0px 0px 0px;
+background-color: black !important;
+	}
+    .card {
+      background-color: black;
+      position: absolute;
+      float: left;
+      margin: 40px 10px 40px 10px;
+      height: 720px;
+      width: 1250px;
+      border: 5px solid;
+      border-color:white;
+    display: block;
+
+    }
+
+
+     .card h1 {
+      margin: 50px 70px 0px;
+      font-size: 3.5em;
+      font-family: Calibri, sans-serif;
+      font-weight:200;
+      color:white;
+    }
+    
+    
+    
+    .profile {
+      display: block;
+      font-family: Arial;
+      position: absolute;
+ 
+      overflow:hidden;
+      margin: 40px;
+      padding: 20px;
+      padding-top: 40px;
+      height: 540px;
+      width: 1100px;
+      color: black;
+      text-align: left;
+      line-height: 1.4em;
+      font-size: 1.7em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+
+    
+    .links {
+       
+      margin: 0 0 0px;
+      display: inline;
+      padding: 25px;
+      position: absolute;
+      top: 110px;
+      left: 45px;
+    }
+    
+   .links img{
+     max-width: 45px;
+     max-height: 45px;
+   }
+    
+    .profile a:hover {
+      opacity: 1;
+    }
+    
+ 
+    
+    .profile .text {
+       overflow:auto;
+      position: absolute;
+     left:35px;
+     top:20px;
+     
+     padding: auto;
+      color: white;
+      width: 650px;
+      font-size: 1em;
+      letter-spacing: 1px;
+      line-height: 35px;
+       font-family: Calibri, sans-serif;
+      font-weight:200;
+    }
+
+    .profile .imagehost{
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+  margin-left: 0px;
+  margin-right:0px;
+  width:500px;
+  left:700px;
+
+    }
+      .profile img {
+      
+ 
+      max-width: 420px;
+      max-height: 420px;
+    }
+  </style>
+ 
+
+  <div class="card">
+      <h1>{name}</h1>
+      <div class="links">
+        {displayFacebook}
+        {displayTwitter}
+        {displayInstagram}
+        {displayMore}
+
+      </div>
+      
+  <div class="profile">
+    <div class="imagehost">
+      <img src="{image}">
+   </div>
+<div class="text">
+    <p>{text}</p>
+</div>  
+
+  </div>
+</div>
+</body>
+
+</html>
+
