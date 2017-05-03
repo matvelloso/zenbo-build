@@ -79,7 +79,7 @@ namespace Zenbo.BotService.Services
             if (response.IsSuccessStatusCode)
             {
                 JObject result = JObject.Parse(await response.Content.ReadAsStringAsync());
-                foreach (JObject tag in (JArray)result["PredictedTags"])
+                foreach (JObject tag in (JArray)result.Root["Predictions"])
                 {
                     if (tag["Probability"].Value<double>() > double.Parse(ConfigurationManager.AppSettings[@"CustomVisionProbabilityThreshold"]))
                     {
