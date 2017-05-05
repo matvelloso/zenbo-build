@@ -1,5 +1,5 @@
 # zenbo-build
-Source code for the bot prototype demoed at Build 2017 using [http://zenbo.asus.com](ASUS Zenbo) and Microsoft Cognitive Services.
+Source code for the bot prototype demoed at Build 2017 using [ASUS Zenbo](http://zenbo.asus.com "ASUS Zenbo") and Microsoft Cognitive Services.
 
 This bot allows a few sample scenarios:
 
