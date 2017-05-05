@@ -42,4 +42,5 @@ This is a very simple bot as the code will tell, but enables expanding to more i
 - The robot can make comments about what it sees and logs the metadata from it into a database so it can answer contextual and historical related questions such as "when was the last time you saw John around here?"
 
 - With the message returned in step 7, we also bake additional details such as facial expressions or the HTML we want to display into the robot's user interface, so the user may decide to move away from speech back into a touch screen if needed
- 
+
+Authors: Mat Velloso, Chris Risner and Brandon Hurlburt 
