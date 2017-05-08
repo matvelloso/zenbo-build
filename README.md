@@ -29,7 +29,7 @@ Steps work as follow:
 
 5. Depending on the findings from step 4, the Bot may also call custom vision API in order to recognize what was in the image when the user was talking to the robot
 
-6. Also depending on step 4, the bot may decide to send the request to Bing Knowledge Graph in order to attempt answering the user's question
+6. Also depending on step 4, the bot may decide to send the request to Bing Knowledge Graph API in order to attempt answering the user's question. Bing Knowledge Graph is currently offered as a partner only API and you can find out more at [bing.com/partners](http://www.bing.com/partners)
 
 7. Bot then responds to the user
 
